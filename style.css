@@ -17,6 +17,15 @@ body{
     object-fit: cover ;
     border-radius: 50%;
     margin-top: 20px;
+    transition: ease-in-out;
+    margin-left: 30px;
+    
+}
+.image:hover {
+    width: 150px;
+    height: 150px;
+    margin-left: 0px;
+    transition: .6s;
 }
 .title {
     flex: 1;
@@ -27,9 +36,21 @@ body{
 .name{
     color: grey;
     font-weight: 600;
+    
+    
+    
 }
+.name:hover {
+    color: coral;
+    font-size : 32.5px;
+    
+   }
+
 .coral{
     color: coral;
+}
+.coral:hover{
+    color: grey;
 }
 
 .proffession{
@@ -49,6 +70,21 @@ body{
     font-weight: 600;
     font-size: 20px;
     display: block;
+    box-shadow: inset 0 0 0 0 rgb(247, 164, 134);
+  
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color 1s ease-in-out, box-shadow .3s ease-in-out;
+    
+}
+.thead:hover{
+    color: rgb(240, 66, 14);
+    box-shadow: inset 235px 0 0 0 coral;
+    
+        color: white;
+    font-size: 21px;
+    
+    
     
 }
 .table{
@@ -57,15 +93,35 @@ body{
 .cname{
     font-size: 20px;
     font-weight: 600;
+    box-shadow: inset 0 0 0 0 rgb(245, 245, 245);
+  
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .4s ease-in-out, box-shadow .5s ease-in-out;
+}
+.cname:hover{
+    
+    box-shadow: inset 700px 0 0 0 rgb(155, 155, 155)
+    ;
+    
+        color: white;
+    font-size: 21px;
+
 }
 .year{
     font-weight: 400;
-    font-size: medium;
+    font-size: 16px;
     color: gray;
     font-style: italic;
     line-height: 20px;
     margin-left: 2px;
     
+}
+.year:hover{
+    color: coral;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 1%;
 }
 .des{
     margin-left: 10px;
